@@ -1,0 +1,66 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<User> Users = new ArrayList<User>();
+		User user1 = new User();
+		user1.setId(1);
+		user1.setFirstName("Goksel");="";
+		user1.lastName="Dogan";
+		user1.City="Eskisehir";
+		Users.add(user1);
+		User user2 = new User();
+		user2.Id=2;
+		user2.firstName="Mert";
+		user2.lastName="Aktas";
+		user2.City="Ankara";
+		Users.add(user2);
+		
+		for (User user : Users) {
+			System.out.println("Id:"+user.Id);
+			System.out.println("First Name:"+user.firstName);
+			System.out.println("Last Name:"+user.lastName);
+			System.out.println("City:"+user.City);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+//		Product product1 = new Product();
+//		product1.setId(1);
+//		product1.setName("Klavye");
+//		product1.setUnitPrice(250);
+//		product1.setDescription("Dell 2022 model klavye");
+//		
+//		Product product2 = new Product();
+//		product2.setId(2);
+//		product2.setName("Mouse");
+//		product2.setUnitPrice(150);
+//		product2.setDescription("Dell 2021 model mouse");
+//		
+//		Product product3 = new Product(3,"Telefon",100000,"IPhone 11");
+//
+//		List<Product> products = new ArrayList<Product>();
+//		products.add(product1);
+//		products.add(product2);
+//		products.add(product3);
+//		
+//		for (Product item : products) {
+//			System.out.println("ID) "+item.getId());
+//			System.out.println("Name) "+item.getName());
+//			System.out.println("Price) "+item.getUnitPrice());
+//			System.out.println("Description) "+item.getDescription());
+//		}
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class User {
+// User -> Id , firstName, LastName,City 
+	int Id;
+	String firstName;
+	String lastName;
+	String City;
+}

@@ -1,0 +1,5 @@
+package workshop1;
+
+public class Control {
+public list<Integer> Same(){}
+}

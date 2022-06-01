@@ -1,0 +1,7 @@
+
+public class Course {
+int id;
+String name;
+String pLanguage;
+string picture;
+}

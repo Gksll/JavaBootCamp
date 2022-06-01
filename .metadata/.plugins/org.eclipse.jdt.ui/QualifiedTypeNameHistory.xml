@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="CustomerManager"/>
+    <fullyQualifiedTypeName name="MathManager"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="workshop1.LD"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="workshop1.Lottery"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.Region"/>
+    <fullyQualifiedTypeName name="Product"/>
+    <fullyQualifiedTypeName name="ProductManager"/>
+    <fullyQualifiedTypeName name="Category"/>
+    <fullyQualifiedTypeName name="CategoryManager"/>
+    <fullyQualifiedTypeName name="Course"/>
+    <fullyQualifiedTypeName name="CourseManager"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="InstructorManager"/>
+    <fullyQualifiedTypeName name="Instructor"/>
+</qualifiedTypeNameHistroy>

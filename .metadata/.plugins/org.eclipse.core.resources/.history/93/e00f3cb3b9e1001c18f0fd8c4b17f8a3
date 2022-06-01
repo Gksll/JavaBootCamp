@@ -1,0 +1,21 @@
+
+public class CategoryManager {
+
+	public void addCategory(Category category) 
+	{
+		
+	}
+	public Category getById() 
+	{
+		Category categoryToFind=null;
+		for (Product item : products) {
+			if (item.getId()==id) {
+				
+				productToFind=item;
+				
+			}
+		}
+		return productToFind;
+	}
+	
+}

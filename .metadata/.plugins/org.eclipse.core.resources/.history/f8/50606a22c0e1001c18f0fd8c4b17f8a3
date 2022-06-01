@@ -1,0 +1,39 @@
+import java.util.List;
+
+public class CategoryManager {
+List<Category> categories;
+	public void addCategory(Category category) 
+	{
+		if(checkIfCategoryNameExist(category.getCategoryName())) 
+		{ System.out.println("Bu urun zaten eklenmis");}
+		else {System.out.println("eklenmemis");}
+		
+	}
+	public Category getById(int id) 
+	{
+		Category categoryToFind=null;
+		for (Category item : categories) {
+			if (item.getCategoryId()==id) {
+				
+				categoryToFind=item;
+				
+			}
+		}
+		return categoryToFind;
+	}
+	private boolean checkIfCategoryNameExist(String categoryName) 
+	{
+		boolean exists = false;
+		for(Category item: categories) 
+		{
+			if (item.getCategoryName()==categoryName) {
+				exists=true;
+			} else {
+				exists = false;
+			}
+			
+		}
+		return exists;
+	}
+	
+}

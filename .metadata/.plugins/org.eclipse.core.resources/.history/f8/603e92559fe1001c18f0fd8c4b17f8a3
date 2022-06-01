@@ -1,0 +1,9 @@
+
+public class Product {
+	//local fields
+	// Access Modifier
+ private int id;
+ private String name;
+ private double unitPrice;
+ private String description;
+}

@@ -1,0 +1,13 @@
+
+public class CategoryManager {
+
+	public void addCategory(Category category) 
+	{
+		
+	}
+	public Category getById() 
+	{
+		
+	}
+	
+}

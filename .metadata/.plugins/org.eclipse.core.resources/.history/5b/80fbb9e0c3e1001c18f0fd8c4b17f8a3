@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class CategoryManager {
+	List<Category> categories;
+	public CategoryManager() {
+		categories=new ArrayList<Category>();
+	}
+	
+	 
+public List<Category> GetAll()
+{
+	return categories;
+}
+public void add(Category category) 
+{if(!CheckIfCategoryExists(category.getName())) {categories.add(category)}
+	
+}
+
+public boolean CheckIfCategoryExists(String categoryName) 
+{
+	boolean exists=false;
+	for (Category item : categories) {
+		if(item.getName()==categoryName) { exists=true;}
+		else {exists=false;}
+	}
+	return exists;
+}
+}

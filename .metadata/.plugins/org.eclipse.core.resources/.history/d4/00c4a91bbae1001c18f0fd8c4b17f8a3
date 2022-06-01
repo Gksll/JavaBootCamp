@@ -1,0 +1,6 @@
+
+public class Category {
+private int categoryId;
+private String categorName;
+private String description;
+}

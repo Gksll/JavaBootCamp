@@ -1,0 +1,20 @@
+package basics;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		// 6 = 1,2,3
+		Scanner girdi = new Scanner(System.in);
+		int sonuc = girdi.nextInt();
+	
+		int [] bolenler;
+		
+		for(int i =1; i<sonuc;i++) {
+			System.out.print(i);
+		}
+	}
+
+}

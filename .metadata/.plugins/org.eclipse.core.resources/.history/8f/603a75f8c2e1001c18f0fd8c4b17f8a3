@@ -1,0 +1,14 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Category c1 = new Category();
+		CategoryManager manager = new CategoryManager();
+		c1.setId(1);
+		c1.setDescription("1 numaralı kategori");
+		c1.setName("Back-End");
+		manager.add(c1);
+
+	}
+
+}

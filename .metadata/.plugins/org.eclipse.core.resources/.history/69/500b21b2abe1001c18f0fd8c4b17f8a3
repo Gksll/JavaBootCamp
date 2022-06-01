@@ -1,0 +1,27 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public class ProductManager {
+	List<Product> products;
+	public ProductManager() {
+		products = new ArrayList<Product>();
+		
+	}
+public void add(Product product) 
+{
+	if(products.contains(product.getId()))
+	{
+		products.add(product);
+	}
+	else
+	{
+		System.out.println("Zaten ekli");
+	}
+	
+	
+	}
+public List<Product> getAll()
+{
+	return products;
+	}
+}

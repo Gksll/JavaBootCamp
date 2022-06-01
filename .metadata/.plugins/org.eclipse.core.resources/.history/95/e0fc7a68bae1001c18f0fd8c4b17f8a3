@@ -1,0 +1,36 @@
+import java.util.List;
+
+public class CategoryManager {
+List<Category> categories;
+	public void addCategory(Category category) 
+	{
+		
+	}
+	public Category getById(int id) 
+	{
+		Category categoryToFind=null;
+		for (Category item : categories) {
+			if (item.getCategoryId()==id) {
+				
+				categoryToFind=item;
+				
+			}
+		}
+		return categoryToFind;
+	}
+	private boolean checkIfCategoryNameExist(String categoryName) 
+	{
+		boolean exists = false;
+		for(Category item: categories) 
+		{
+			if (item.getName()==productName) {
+				exists=true;
+			} else {
+
+			}
+			
+		}
+		return exists;
+	}
+	
+}

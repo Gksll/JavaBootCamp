@@ -1,0 +1,11 @@
+package workshop1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Control {
+	List<Integer> loto = new ArrayList<Integer>();
+	public List<Integer> IsTheSame(){
+		return
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;private static void PerfectNumber()&apos; from &apos;basics.Main.main(...)&apos; to &apos;basics.Main&apos;&#x0D;&#x0A;- Original project: &apos;basics&apos;&#x0D;&#x0A;- Method name: &apos;PerfectNumber&apos;&#x0D;&#x0A;- Destination type: &apos;basics.Main&apos;&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" comments="false" description="Extract method &apos;PerfectNumber&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;basics{Main.java" name="PerfectNumber" replace="false" selection="135 458" stamp="1653994912125" version="1.0" visibility="2"/>
+</session>

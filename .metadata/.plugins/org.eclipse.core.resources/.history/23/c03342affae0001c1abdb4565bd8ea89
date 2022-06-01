@@ -1,0 +1,20 @@
+package workshop1;
+
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//1-49 arası 6 sayı
+		Lottery l = new Lottery();
+		for (List<Integer> item : (l.play(6))) {
+			System.out.println(item);
+		}
+		
+		
+        //istenilen sayıda kolon oynayıp alt alta yazan metodu yazınız.
+		//En çok 8 kolon oynayabilir.
+		//Tüm kolonlar hiç bir sayı tekrar etmeyecek oyanama metodunu yazınız.
+	}
+
+}

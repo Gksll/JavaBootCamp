@@ -1,0 +1,29 @@
+package workshop1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+	private static int numberOfGames;
+	public static void main(String[] args) {
+		//1-49 arası 6 sayı
+		/*
+		 * Lottery l = new Lottery(); for (List<Integer> item : (l.play(8))) {
+		 * System.out.println(item); }
+		 */
+		LD lottery = new LD();
+		System.out.println("Please enter the amount of games you would like to play");
+	    Scanner in = new Scanner(System.in);
+	    numberOfGames = in.nextInt();
+	    LD q = new LD();
+	    ArrayList<ArrayList> game= new ArrayList<ArrayList>();
+	    q.Generate(numberOfGames);
+	    q.Display();
+		
+        //istenilen sayıda kolon oynayıp alt alta yazan metodu yazınız.
+		//En çok 8 kolon oynayabilir.
+		//Tüm kolonlar hiç bir sayı tekrar etmeyecek oyanama metodunu yazınız.
+	}
+
+}

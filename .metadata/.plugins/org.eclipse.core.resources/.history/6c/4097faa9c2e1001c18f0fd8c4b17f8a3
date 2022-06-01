@@ -1,0 +1,11 @@
+import java.util.List;
+
+public class CategoryManager {
+	List<Category> categories;
+public List<Category> GetAll()
+{
+	return categories;
+}
+public void add(Category category) 
+{categories.add(category)}
+}

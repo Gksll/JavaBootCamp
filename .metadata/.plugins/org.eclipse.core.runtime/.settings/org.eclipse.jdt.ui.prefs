@@ -1,0 +1,9 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="CustomerManager"><rhs name\="CustomerManager"/></lhs><lhs name\="MathManager"><rhs name\="MathManager"/></lhs><lhs name\="workshop1.Lottery"><rhs name\="workshop1.Lottery"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="workshop1.LD"><rhs name\="workshop1.LD"/></lhs><lhs name\="ProductManager"><rhs name\="ProductManager"/></lhs><lhs name\="Category"><rhs name\="Category"/></lhs><lhs name\="CategoryManager"><rhs name\="CategoryManager"/></lhs><lhs name\="Course"><rhs name\="Course"/></lhs><lhs name\="CourseManager"><rhs name\="CourseManager"/></lhs><lhs name\="InstructorManager"><rhs name\="InstructorManager"/></lhs><lhs name\="Instructor"><rhs name\="Instructor"/></lhs></history>
+content_assist_number_of_computers=20
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

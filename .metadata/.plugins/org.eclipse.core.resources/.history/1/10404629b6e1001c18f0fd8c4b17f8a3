@@ -1,0 +1,80 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public class ProductManager {
+	List<Product> products;
+	public ProductManager() {
+		products = new ArrayList<Product>();
+		
+	}
+public void add(Product product) 
+{
+	if(!checkIfProductNameExist(product.getName())) 
+	{
+		products.add(product);
+	}
+	else
+	{
+		System.out.println("Urun Mevcut");
+	}
+		
+		
+	
+	
+	
+	}
+public void delete(Product product) 
+{
+	
+	products.remove(productToDelete);
+	
+	}
+public void update(Product product) 
+{
+	for (Product item : products) {
+		if (item.getId()==product.getId()) {
+			item.setName(product.getName());
+			item.setUnitPrice(product.getUnitPrice());
+			item.setDescription(product.getDescription());
+			System.out.println(item.getId()+" ye sahip Ürün güncellendi");
+			break;
+		}
+		else 
+		{
+//			System.out.println("Urun mevcut degil");
+		}
+	}
+	
+	
+	}
+public List<Product> getAll()
+{
+	return products;
+	}
+private boolean checkIfProductNameExist(String productName) 
+{
+	boolean exists = false;
+	for(Product item: products) 
+	{
+		if (item.getName()==productName) {
+			exists=true;
+		} else {
+
+		}
+		
+	}
+	return exists;
+}
+private Product getById(int id) 
+{
+	Product productToFind=null;
+	for (Product item : products) {
+		if (item.getId()==id) {
+			
+			productToFind=item;
+			
+		}
+	}
+	return productToFind;
+}
+}

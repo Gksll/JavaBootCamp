@@ -1,0 +1,27 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Category c1 = new Category();
+		CategoryManager manager = new CategoryManager();
+		c1.setId(1);
+		c1.setDescription("1 numaralı kategori");
+		c1.setName("Back-End");
+		Category c2 = new Category();
+		c2.setId(2);
+		c2.setDescription("2 numaralı kategori");
+		c2.setName("Front-End");
+		
+		manager.add(c1);
+		manager.add(c2);
+//		manager.delete(c2);
+		
+		
+		
+		for (Category c : manager.GetAll()) {
+			System.out.println(c.getName());
+		}
+
+	}
+
+}

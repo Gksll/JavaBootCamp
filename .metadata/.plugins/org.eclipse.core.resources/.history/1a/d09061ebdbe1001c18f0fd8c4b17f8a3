@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class InstructorManager {
+	List<Instructor> instructors;
+
+	public InstructorManager() {
+		instructors = new ArrayList<Instructor>();
+	}
+
+	public List<Instructor> getAll() {
+		return instructors;
+	}
+	public void add(Instructor instructor) 
+	{
+		instructors.add(instructor);
+	}
+
+}

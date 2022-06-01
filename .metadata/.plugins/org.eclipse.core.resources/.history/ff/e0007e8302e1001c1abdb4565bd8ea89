@@ -1,0 +1,49 @@
+package workshop1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class Lottery {
+	Random rand = new Random();
+public List<List<Integer>> play(int number)
+{
+	List<List<Integer>> lotos  = new ArrayList<List<Integer>>();
+	for (int i = 0; i < number; i++) {
+		
+		lotos.add(tek());
+	}
+	 
+	return lotos;
+	
+	}
+public List<Integer> tek()
+{
+	List<Integer> loto = new ArrayList<Integer>();
+
+	 for (int i = 0; i < 6; i++) {
+		int sayi=rand.nextInt(1,50);
+		if(!loto.contains(sayi)) {
+			loto.add(sayi);
+		}
+		else {
+			int sayi2=rand.nextInt(1,50);
+			loto.add(sayi2);
+		}
+			}
+	 return loto;
+	}
+
+public ArrayList<ArrayList<Integer>> Karsilastir(ArrayList<ArrayList<Integer>> eleman)
+{
+	for (int i = 0; i < eleman.size(); i++) {
+		for (int j = i; j <= i; j++) {
+		if(eleman.get(i).get(i).equals(eleman.get(j).get(j))) 
+		{
+			eleman.get(i).get(i).valueOf(rand.nextInt(1,50));
+		}	
+		}
+	}
+	return eleman;
+}
+}

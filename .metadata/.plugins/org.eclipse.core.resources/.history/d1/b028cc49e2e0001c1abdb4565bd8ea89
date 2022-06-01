@@ -1,0 +1,14 @@
+package workshop1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//1-49 arası 6 sayı
+		Lottery l = new Lottery();
+		for (Integer item : l.play()) {
+			System.out.println(item);
+		}
+
+	}
+
+}

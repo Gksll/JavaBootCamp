@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class CourseManager {
+	List<Course> courses;
+
+	public CourseManager() {
+		courses = new ArrayList<Course>();
+	}
+
+	public List<Course> getAll() {
+		return courses;
+	}
+
+	public void add(Course course) {
+		courses.add(course);
+	}
+
+}

@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class InstructorManager {
+	List<Instructor> instructors;
+
+	public InstructorManager() {
+		instructors = new ArrayList<Instructor>();
+	}
+
+	public List<Instructor> getAll() {
+		return instructors;
+	}
+
+	public void add(Instructor instructor) {
+		if (!checkIfInstructorExists(instructor.name)) {
+			instructors.add(instructor);
+		} else {
+			System.out.println("The name used already");
+		}
+	}
+
+	public Instructor getById(int id) {
+		
+	}
+
+	public boolean checkIfInstructorExists(String name) {
+		boolean exists = false;
+		for (Instructor item : instructors) {
+			if (item.name == name) {
+				exists = true;
+			}
+		}
+		return exists;
+	}
+}

@@ -1,0 +1,22 @@
+package workshop1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		//1-49 arası 6 sayı
+		
+		  Lottery l = new Lottery(); 
+		  for (List<Integer> item : (l.Karsilastir(l.play(6)))) {
+		  System.out.println(item); }
+		 
+		
+		
+        //istenilen sayıda kolon oynayıp alt alta yazan metodu yazınız.
+		//En çok 8 kolon oynayabilir.
+		//Tüm kolonlar hiç bir sayı tekrar etmeyecek oyanama metodunu yazınız.
+	}
+
+}

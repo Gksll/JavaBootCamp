@@ -1,0 +1,26 @@
+package workshop1;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class Lottery {
+public List<Integer> play()
+{
+	List<Integer> loto = new ArrayList<Integer>();
+	List<Integer> tmp = new ArrayList<Integer>();
+	Random rand = new Random();
+	 for (int i = 0; i < 6; i++) {
+		int sayi=rand.nextInt(1,50);
+		loto.add(sayi);
+		if(loto.size()>1) {
+		for (int j = 0; j < loto.size(); j++) {
+			
+		}
+		
+		
+		}
+	 }
+	return loto;
+}
+}

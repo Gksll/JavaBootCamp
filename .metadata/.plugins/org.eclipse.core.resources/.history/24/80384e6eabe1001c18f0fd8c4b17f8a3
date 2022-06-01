@@ -1,0 +1,32 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public class ProductManager {
+	List<Product> products;
+	public ProductManager() {
+		products = new ArrayList<Product>();
+		
+	}
+public void add(Product product) 
+{
+	products.add(product);
+	for (int i = 0; i < products.size(); i++) {
+		if(product.getId()!=products.get(i).getId()) 
+		{
+			products.add(product);
+		}
+		else
+		
+		{
+			System.out.println("Ürün daha önceden eklenmiş");
+		}
+	}
+	
+	
+	
+	}
+public List<Product> getAll()
+{
+	return products;
+	}
+}

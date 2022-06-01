@@ -1,0 +1,9 @@
+
+public class CategoryManager {
+
+	public void addCategory(Category category) 
+	{
+		
+	}
+	
+}

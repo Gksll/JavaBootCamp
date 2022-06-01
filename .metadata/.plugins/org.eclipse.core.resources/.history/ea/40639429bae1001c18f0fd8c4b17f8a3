@@ -1,0 +1,16 @@
+
+public class Category {
+	
+public Category() {
+		super();
+	}
+public Category(int categoryId, String categorName, String description) {
+		super();
+		this.categoryId = categoryId;
+		this.categorName = categorName;
+		this.description = description;
+	}
+private int categoryId;
+private String categorName;
+private String description;
+}

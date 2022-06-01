@@ -1,0 +1,14 @@
+package workshop1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Control {
+	
+	public List<Integer> IsTheSame(List<List<Integer>> eleman){
+		return eleman;
+		
+		
+		
+	}
+}

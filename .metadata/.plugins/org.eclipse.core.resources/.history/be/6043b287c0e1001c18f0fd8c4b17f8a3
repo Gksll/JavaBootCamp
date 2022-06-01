@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CategoryManager manager = new CategoryManager();
+		Category c1 = new Category();
+		
+		c1.setCategoryId(1);
+		c1.setCategoryName("Back-End");
+		c1.setDescription("Arka planda çalışan sistematik yapı bilgisi");
+		manager.addCategory(c1);
+		
+		for (Category item : categories) {
+			System.out.println(item.getCategoryName());
+		}
+
+	}
+
+}

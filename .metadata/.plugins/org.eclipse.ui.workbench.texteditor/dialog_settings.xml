@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="System.out.println(&quot;Urun mevcut degil&quot;);"/>
+		<list key="findhistory">
+			<item value="System.out.println(&quot;Urun mevcut degil&quot;);"/>
+			<item value="List&lt;Integer&gt; loto = new ArrayList&lt;Integer&gt;();"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="685"/>
+		<item key="DIALOG_Y_ORIGIN" value="392"/>
+	</section>
+</section>
