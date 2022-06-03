@@ -1,0 +1,15 @@
+import java.util.List;
+import java.util.ArrayList;
+public class CourseManager {
+	List<LogService> logService;
+
+	public CourseManager(LogService logService) {
+		this.logService = new ArrayList<LogService>();
+	}
+
+	public void add() {
+		logService.log("eklendi");
+	}
+}
+
+// kodlama C# 4-5 gün ödevleri

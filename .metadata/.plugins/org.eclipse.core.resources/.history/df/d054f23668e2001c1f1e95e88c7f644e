@@ -1,0 +1,12 @@
+public class fileLogService implements LogService {
+
+	@Override
+	public void log(string logMessage) {
+		System.out.println("Dosyaya Loglandı: "+logMessage);
+		
+	}
+
+	
+	
+
+}

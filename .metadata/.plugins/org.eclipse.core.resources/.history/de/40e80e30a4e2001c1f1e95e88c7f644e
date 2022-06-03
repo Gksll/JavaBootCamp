@@ -1,0 +1,13 @@
+public class CourseManager {
+	List<LogService> logService;
+
+	public CourseManager(LogService logService) {
+		this.logService = logService;
+	}
+
+	public void add() {
+		logService.log("eklendi");
+	}
+}
+
+// kodlama C# 4-5 gün ödevleri

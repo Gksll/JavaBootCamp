@@ -1,0 +1,46 @@
+import Concrete.CustomerManager;
+import Entities.Campaign;
+import Entities.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Customer customer = new Customer();
+	            customer.firstName="Göksel";
+	            customer.birthYear="1994";
+	            customer.nationalityId="21040181962";
+	            customer.lastName="Doğan";
+
+	            CustomerManager customerManager = new CustomerManager(new MernisServiceAdapter());
+	            customerManager.Add(customer);
+	            customerManager.Update(customer);
+	            customerManager.Delete(customer);
+
+	            System.out.println("---------");
+
+	            Campaign campaign = new Campaign();
+	            		 campaign.id=1; campaign.name="Herkes oyun oynasın!";campaign.discount=90;
+	            CampaignManager campaignManager = new CampaignManager();
+	            campaignManager.Add(campaign);
+	            campaignManager.Update(campaign);
+	            campaignManager.Delete(campaign);
+
+	            Console.WriteLine("--------------");
+
+	            Game game = new Game { Name = "Far Cry 3", Price = 120 };
+	            GameManager gameManager = new GameManager();
+	            gameManager.Add(game);
+	            gameManager.Update(game);
+	            gameManager.Delete(game);
+
+	            Console.WriteLine("--------------");
+
+	            SaleManager saleManager = new SaleManager();
+	            saleManager.Sale(customer, game, campaign);
+	            saleManager.Sale(customer, game);
+
+	        }
+	}
+
+}

@@ -1,0 +1,23 @@
+import java.util.List;
+
+public class GamerManager implements IGamer{
+List<Gamer> gamers;
+	@Override
+	public void add(Gamer gamer) {
+		
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void update(Gamer gamer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

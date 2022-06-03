@@ -1,0 +1,22 @@
+import java.util.List;
+import java.util.ArrayList;
+public class CourseManager {
+	List<LogService> logServices;
+List<Instructor> instructors;
+	public CourseManager(LogService logService) {
+		this.logServices = new ArrayList<LogService>();
+	}
+
+	public void add() {
+		for (LogService item : logServices) {
+			item.log("Goksel ekledi");
+		}
+	}
+}
+public class Instructor {
+Instructor data = new Instructor();
+
+}
+
+
+// kodlama C# 4-5 gün ödevleri

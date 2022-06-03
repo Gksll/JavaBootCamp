@@ -1,0 +1,20 @@
+package Abstract;
+
+import Entities.Customer;
+
+public abstract class BaseCustomerService implements CustomerService {
+	public void Add(Customer customer)
+    {
+    System.out.println("Basariyla Kayit Olundu : " + customer.firstName);
+    }
+
+    public void Delete(Customer customer)
+    {
+    	System.out.println("Kayit Silindi : " + customer.firstName);
+    }
+
+    public virtual void Update(Customer customer)
+    {
+        Console.WriteLine("Kayıt Güncellendi : " + customer.FirstName);
+    }
+}

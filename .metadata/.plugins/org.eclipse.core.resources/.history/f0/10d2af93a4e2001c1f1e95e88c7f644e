@@ -1,0 +1,17 @@
+import java.util.List;
+import java.util.ArrayList;
+public class CourseManager {
+	List<LogService> logServices;
+
+	public CourseManager(LogService logService) {
+		this.logServices = new ArrayList<LogService>();
+	}
+
+	public void add() {
+		for (LogService item : logServices) {
+			
+		}
+	}
+}
+
+// kodlama C# 4-5 gün ödevleri

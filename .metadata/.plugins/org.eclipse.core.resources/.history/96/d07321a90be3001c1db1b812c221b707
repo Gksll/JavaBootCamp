@@ -1,0 +1,7 @@
+public class MyDictionaryManager {
+	
+public void add(int index, String value) 
+{
+	System.out.println();
+}
+}

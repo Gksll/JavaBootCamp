@@ -1,0 +1,20 @@
+package Concrete;
+
+import Abstract.SaleService;
+import Entities.Campaign;
+import Entities.Customer;
+import Entities.Game;
+
+public class SaleManager implements SaleService{
+	public void Sale(Customer customer, Game game, Campaign campaign)
+    {
+       System.out.println(game.name + " adli Oyun "+customer.firstName+" isimli musteriye, "+
+            campaign.name + " Kampanyasi ile "+ game.price+" Tl yerine "+(game.price-(campaign.discount*game.price/100)) +" Tl ile satilmistir.");
+    }
+
+    public void Sale(Customer customer, Game game)
+    {
+    	System.out.println(game.name + " adlı Oyun " + customer.firstName + " isimli müşteriye, " +
+                game.price+" Tl ile satılmıştır.");
+    }
+}

@@ -1,0 +1,3 @@
+public class MyDictionary {
+public void add(int index, String value) {}
+}

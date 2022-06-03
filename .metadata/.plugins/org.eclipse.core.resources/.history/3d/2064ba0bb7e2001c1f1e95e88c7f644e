@@ -1,0 +1,6 @@
+package Abstract;
+
+public interface SaleService {
+	 void Sale(Customer customer, Game game, Campaign campaign);
+     void Sale(Customer customer, Game game);
+}

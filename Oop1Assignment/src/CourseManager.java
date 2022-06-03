@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-
 public class CourseManager {
 	List<Course> courses;
 

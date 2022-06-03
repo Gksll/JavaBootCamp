@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		CourseManager manager = new CourseManager(new DatabaseLogService());
+//		List<LogService> LogServices = new ArrayList<LogService>();
+//		LogServices.add(new DatabaseLogService());
+//		LogServices.add(new EmailLogService());
+//		LogServices.add(new fileLogService());
+//		
+//		for (LogService item : LogServices) {
+//			item.log("Goksel logladi");
+//			
+//		}
+		
+//		LogService logService = new fileLogService();
+//				logService.log("goksel ekledi");
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package Concrete;
+
+import Abstract.BaseCustomerService;
+import Entities.Customer;
+
+public class CustomerManager extends BaseCustomerService{
+
+	
+
+}

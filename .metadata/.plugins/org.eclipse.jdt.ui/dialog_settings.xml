@@ -5,6 +5,7 @@
 	<item key="org.eclipse.jdt.ui.last.selected.create.moduleinfo" value="false"/>
 	<item key="delegateUpdating" value="true"/>
 	<item key="delegateDeprecation" value="true"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Red_Beard\Desktop"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>
@@ -35,7 +36,7 @@
 		<item key="AccessModifier" value="2"/>
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="3"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
 		<item key="ShowStatusLine" value="true"/>
@@ -83,5 +84,8 @@
 		<item key="DIALOG_WIDTH" value="588"/>
 		<item key="DIALOG_HEIGHT" value="690"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item key="index" value="0"/>
 	</section>
 </section>

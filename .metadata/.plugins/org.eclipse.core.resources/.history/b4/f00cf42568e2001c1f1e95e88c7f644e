@@ -1,0 +1,9 @@
+public class fileLogService implements LogService {
+
+	@Override
+	public void log(string logMessage) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

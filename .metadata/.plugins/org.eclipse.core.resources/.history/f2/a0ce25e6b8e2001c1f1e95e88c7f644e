@@ -1,0 +1,27 @@
+package Concrete;
+
+import Abstract.BaseCustomerService;
+import Abstract.CustomerService;
+import Entities.Customer;
+
+public class CustomerManager extends BaseCustomerService{
+
+	@Override
+	public void Add(Customer customer) {
+		System.out.println(game.name + " adlı oyun başarıyla eklendi !");
+		
+	}
+
+	@Override
+	public void Update(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Delete(Customer customer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

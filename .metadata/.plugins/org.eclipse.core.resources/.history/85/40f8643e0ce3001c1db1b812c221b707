@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class DictionaryManager implements DictionaryService{
+	List<Dictionary> values ;
+	public DictionaryManager() 
+	{
+		values = new ArrayList<Dictionary>();
+	}
+	@Override
+	public void add(Dictionary dictionary) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Dictionary> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

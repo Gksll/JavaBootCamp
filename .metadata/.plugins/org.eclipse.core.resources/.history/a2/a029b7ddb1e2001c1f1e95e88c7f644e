@@ -1,0 +1,43 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class GamerManager implements IGamer {
+	List<Gamer> gamers;
+
+	public GamerManager() {
+		gamers = new ArrayList<Gamer>();
+	}
+	
+
+	@Override
+	public void add(Gamer gamer) {
+		if (!checkIfGamerExists(gamer)) {
+			gamers.add(gamer);
+		} else {
+			System.out.println("Eklendi");
+		}
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Gamer gamer) {
+		// TODO Auto-generated method stub
+
+	}
+	public boolean checkIfGamerExists(Gamer gamer) 
+	{
+		boolean exists=false;
+		for (Gamer item : gamers) {
+			
+			if (item.identityNumber==gamer.identityNumber) {
+				exists=true;
+			} 
+		}
+		return exists;
+	}
+}

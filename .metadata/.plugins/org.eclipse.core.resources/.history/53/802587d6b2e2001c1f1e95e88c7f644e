@@ -1,0 +1,6 @@
+public class Gamer {
+String identityNumber;
+String firstName;
+String lastName;
+String birthYear;
+}

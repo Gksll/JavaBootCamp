@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring className="Instructor" comment="Extract class &apos;Instructor&apos; from fields in &apos;Instructor&apos;&#x0D;&#x0A;- Original project: &apos;Interfaces&apos;&#x0D;&#x0A;- Extracted class name: &apos;Instructor&apos;&#x0D;&#x0A;- Package: &apos;&apos;&#x0D;&#x0A;- Moved fields:&#x0D;&#x0A;     &apos;id&apos; as &apos;id&apos;&#x0D;&#x0A;     &apos;name&apos; as &apos;name&apos;&#x0D;&#x0A;- Field object: &apos;data&apos;" createField0="true" createField1="true" createFieldCount="2" createGetterSetter="false" createTopLevel="true" description="Extract Class..." fieldName="data" flags="851974" id="org.eclipse.jdt.ui.extract.class" input="/src&lt;{CourseManager.java[Instructor" newFieldCount="2" newFieldName0="id" newFieldName1="name" oldFieldCount="2" oldFieldName0="id" oldFieldName1="name" packageName="" stamp="1654195807378" version="1.0"/>
+</session>

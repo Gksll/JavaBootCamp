@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="System.out.println(&quot;Urun mevcut degil&quot;);"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
 			<item value="System.out.println(&quot;Urun mevcut degil&quot;);"/>
 			<item value="List&lt;Integer&gt; loto = new ArrayList&lt;Integer&gt;();"/>

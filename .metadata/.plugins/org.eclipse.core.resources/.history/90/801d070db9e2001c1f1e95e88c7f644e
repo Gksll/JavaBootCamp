@@ -1,0 +1,14 @@
+package Concrete;
+
+import Abstract.BaseCustomerService;
+import Entities.Customer;
+
+public class CustomerManager extends BaseCustomerService{
+
+	CustomerService customerService;
+	public CustomerManager(CustomerService customerService) 
+	{
+		this.customerService=customerService;
+	}
+
+}

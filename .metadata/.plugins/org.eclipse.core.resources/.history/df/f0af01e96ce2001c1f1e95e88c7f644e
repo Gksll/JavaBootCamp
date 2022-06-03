@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		List<LogService> LogServices = new ArrayList<LogService>();
+		
+//		LogService logService = new fileLogService();
+//				logService.log("goksel ekledi");
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package Concrete;
+
+import Abstract.GameService;
+import Entities.Game;
+
+public class GameManager implements GameService{
+
+	@Override
+	public void Add(Game game) {
+System.out.println(game.Name + " adlı oyun başarıyla eklendi !");
+		
+	}
+
+	@Override
+	public void Update(Game game) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Delete(Game game) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

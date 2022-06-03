@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class DictionaryManager implements DictionaryService{
+	List<Dictionary> tmpArray ;
+	public DictionaryManager() 
+	{
+		tmpArray = new ArrayList<Dictionary>();
+	}
+	@Override
+	public void add(Dictionary dictionary) {
+		tmpArray.add(dictionary);
+		
+	}
+
+	@Override
+	public List<Dictionary> getAll() {
+		
+		return tmpArray;
+	}
+	
+
+}

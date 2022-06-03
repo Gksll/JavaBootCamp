@@ -1,0 +1,3 @@
+public interface DictionaryService {
+void add(Dictionary dictionary);
+}

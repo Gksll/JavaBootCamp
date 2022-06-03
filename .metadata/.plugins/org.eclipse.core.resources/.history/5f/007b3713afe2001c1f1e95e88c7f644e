@@ -1,0 +1,32 @@
+import java.util.List;
+import java.util.ArrayList;
+
+public class CourseManager {
+	List<LogService> logServices; //Heryere loglamak için liste constructer oluşturduk.
+	List<Instructor> instructors; //oluşan instructerlar için liste oluştu.
+
+	public CourseManager(List<LogService> logServices) { //constructer parametreyi list almalı
+		this.logServices = logServices; // gelen cons. this ile atandı.
+		instructors = new ArrayList<Instructor>(); // ins. listesi için instance oluştu.
+	}
+
+	public void add(Instructor instructor) {
+		instructors.add(instructor);
+
+		logMessage("eklendi");
+
+	}
+
+	public List<Instructor> getAll() {
+		return instructors;
+	}
+
+	private void logMessage(String message) {
+		for (LogService logs : logServices) {
+			logs.log("loglandi");
+		}
+
+	}
+}
+
+// kodlama C# 4-5 gün ödevleri

@@ -1,0 +1,8 @@
+
+public class CourseManager {
+LogService logService;
+public CourseManager(LogService logService) 
+{
+this.logService=logService;	
+}
+}

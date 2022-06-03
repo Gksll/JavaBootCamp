@@ -1,0 +1,13 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		DictionaryManager manager = new DictionaryManager();
+		Dictionary d1= new Dictionary();
+		d1.key=1;
+		d1.value="Goksel";
+		manager.values();
+
+	}
+
+}

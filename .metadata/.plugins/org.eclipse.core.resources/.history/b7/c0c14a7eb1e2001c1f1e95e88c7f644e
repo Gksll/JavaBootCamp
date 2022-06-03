@@ -1,0 +1,35 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class GamerManager implements IGamer {
+	List<Gamer> gamers;
+
+	public GamerManager() {
+		gamers = new ArrayList<Gamer>();
+	}
+	
+
+	@Override
+	public void add(Gamer gamer) {
+		
+	}
+
+	@Override
+	public void delete(int id) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Gamer gamer) {
+		// TODO Auto-generated method stub
+
+	}
+	public boolean checkIfGamerExists(Gamer gamer) 
+	{
+		boolean exists=false
+		
+		
+	}
+
+}

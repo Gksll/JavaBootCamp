@@ -1,0 +1,3 @@
+public interface IGamer {
+void add(Gamer gamer);
+}

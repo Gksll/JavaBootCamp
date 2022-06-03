@@ -1,0 +1,7 @@
+public class DictionaryManager implements DictionaryService{
+	
+public void add(int index, String value) 
+{
+	System.out.println();
+}
+}
