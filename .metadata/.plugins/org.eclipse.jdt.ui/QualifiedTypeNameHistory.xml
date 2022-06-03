@@ -21,8 +21,6 @@
     <fullyQualifiedTypeName name="LogService"/>
     <fullyQualifiedTypeName name="CourseManager"/>
     <fullyQualifiedTypeName name="Instructor"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="GamerManager"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="Abstract.GameService"/>
@@ -39,4 +37,26 @@
     <fullyQualifiedTypeName name="Entities.Game"/>
     <fullyQualifiedTypeName name="Concrete.GameManager"/>
     <fullyQualifiedTypeName name="Concrete.SaleManager"/>
+    <fullyQualifiedTypeName name="DictionaryService"/>
+    <fullyQualifiedTypeName name="DictionaryManager"/>
+    <fullyQualifiedTypeName name="Dictionary"/>
+    <fullyQualifiedTypeName name="Main.MyDictionary"/>
+    <fullyQualifiedTypeName name="nLayeredApp.dataAccess.abstracts.BrandRepository"/>
+    <fullyQualifiedTypeName name="nLayeredApp.dataAccess.concretes.hibernateImpls.HibernateBrandRepository"/>
+    <fullyQualifiedTypeName name="nLayeredApp.business.abstracts.BrandService"/>
+    <fullyQualifiedTypeName name="nLayeredApp.business.concretes.BrandManager"/>
+    <fullyQualifiedTypeName name="nLayeredApp.Entities.concrete.Brand"/>
+    <fullyQualifiedTypeName name="nLayeredApp.dataAccess.concretes.jdbcImpls.jdbcBrandRepository"/>
+    <fullyQualifiedTypeName name="workshop2.dataAccess.abstracts.ProductRepository"/>
+    <fullyQualifiedTypeName name="workshop2.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="workshop2.business.concretes.ProductManager"/>
+    <fullyQualifiedTypeName name="workshop2.dataAccess.concretes.HibernateProductRepository"/>
+    <fullyQualifiedTypeName name="workshop2.dataAccess.concretes.jdbcBrandRepository"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Locale.Category"/>
+    <fullyQualifiedTypeName name="workshop2.Entities.concretes.Category"/>
+    <fullyQualifiedTypeName name="workshop2.business.abstracts.CategoryService"/>
+    <fullyQualifiedTypeName name="workshop2.dataAccess.abstracts.CategoryRepository"/>
+    <fullyQualifiedTypeName name="workshop2.Entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>

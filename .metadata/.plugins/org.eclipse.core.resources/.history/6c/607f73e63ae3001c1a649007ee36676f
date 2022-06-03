@@ -1,0 +1,18 @@
+package nLayeredApp;
+
+import nLayeredApp.Entities.concrete.Brand;
+import nLayeredApp.business.abstracts.BrandService;
+import nLayeredApp.business.concretes.BrandManager;
+import nLayeredApp.dataAccess.concretes.hibernateImpls.HibernateBrandRepository;
+import nLayeredApp.dataAccess.concretes.jdbcImpls.jdbcBrandRepository;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		BrandService brandService = new BrandManager(new HibernateBrandRepository());
+		BrandService brandService = new BrandManager(new jdbcBrandRepository());
+		brandService.add(new Brand());
+
+	}
+
+}

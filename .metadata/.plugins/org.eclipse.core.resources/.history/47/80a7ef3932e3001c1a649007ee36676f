@@ -1,0 +1,9 @@
+package nLayeredApp.dataAccess.abstracts;
+
+public interface BrandDao {
+void add(Brand brand);
+void delete();
+void update();
+List<Brand> getAll();
+Brand getById(int id);
+}

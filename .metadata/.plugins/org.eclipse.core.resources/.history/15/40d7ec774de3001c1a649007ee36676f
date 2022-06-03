@@ -1,0 +1,5 @@
+package workshop2.dataAccess.concretes;
+
+public class HibernateCategoryRepository {
+
+}

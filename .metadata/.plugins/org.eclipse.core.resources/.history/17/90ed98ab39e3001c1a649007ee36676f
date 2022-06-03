@@ -1,0 +1,5 @@
+package nLayeredApp.business.concretes;
+
+public class BrandManager {
+
+}

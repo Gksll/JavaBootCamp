@@ -1,0 +1,5 @@
+package nLayeredApp.dataAccess.concretes.jdbcImpls;
+
+public class jdbcBrandRepository {
+
+}

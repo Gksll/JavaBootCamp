@@ -1,0 +1,5 @@
+package workshop2.business.abstracts;
+
+public interface ProductService {
+
+}

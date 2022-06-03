@@ -1,0 +1,31 @@
+package workshop2;
+
+import java.util.List;
+import java.util.ArrayList;
+
+import workshop2.Entities.concretes.Product;
+import workshop2.business.abstracts.ProductService;
+import workshop2.business.concretes.ProductManager;
+import workshop2.dataAccess.concretes.HibernateProductRepository;
+import workshop2.dataAccess.concretes.jdbcBrandRepository;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ProductService productService = new ProductManager(new HibernateProductRepository());
+		//ProductService productService2= new ProductManager(new jdbcBrandRepository());
+		
+		Product p1 = new Product();
+		p1.setId(1);
+		p1.setName("Gözlük");
+		p1.setDescription("On numara gözlük");
+		p1.setQuentityPerUnit("Adet");
+		p1.setUnitPrice(700);
+		productService.add(p1);
+		
+		
+
+	}
+
+}

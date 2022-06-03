@@ -1,0 +1,5 @@
+package nLayeredApp.business.abstracts;
+
+public interface BrandService {
+
+}

@@ -1,0 +1,4 @@
+package nLayeredApp.Entities.concrete;
+public class Brand {
+
+}

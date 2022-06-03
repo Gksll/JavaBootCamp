@@ -1,0 +1,10 @@
+package workshop2.Entities.concretes;
+
+public class Product {
+
+	private int id;
+	private String name;
+	private double unitPrice;
+	private String quentityPerUnit;
+	private String description;
+}

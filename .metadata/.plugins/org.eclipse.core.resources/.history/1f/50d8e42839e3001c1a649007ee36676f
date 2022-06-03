@@ -1,0 +1,5 @@
+package nLayeredApp.dataAccess.concretes.hibernateImpls;
+
+public class HibernateBrandRepository {
+
+}

@@ -1,0 +1,7 @@
+package workshop2.dataAccess.concretes;
+
+import workshop2.dataAccess.abstracts.CategoryRepository;
+
+public class HibernateCategoryRepository implements CategoryRepository {
+
+}

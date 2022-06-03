@@ -1,0 +1,17 @@
+package nLayeredApp.business.abstracts;
+
+import java.util.List;
+
+import nLayeredApp.Entities.concrete.Brand;
+
+public interface BrandService {
+	void add();
+
+	void delete();
+
+	void update();
+
+	List<Brand> getAll();
+
+	Brand getById(int id);
+}

@@ -1,0 +1,47 @@
+package workshop2.dataAccess.concretes;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale.Category;
+
+import workshop2.dataAccess.abstracts.CategoryRepository;
+
+public class HibernateCategoryRepository implements CategoryRepository {
+
+	List<Category> categories;
+
+	public HibernateCategoryRepository() {
+		categories = new ArrayList<Category>();
+	}
+
+	@Override
+	public void add(Category category) {
+		categories.add(category);
+
+	}
+
+	@Override
+	public void delete(Category category) {
+		categories.remove(category);
+
+	}
+
+	@Override
+	public void update(Category category) {
+		
+
+	}
+
+	@Override
+	public List<Category> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Category getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package workshop2.dataAccess.concretes;
+import java.util.ArrayList;
+import java.util.List;
+import workshop2.Entities.concretes.Product;
+
+public class HibernateCategoryRepository implements CategoryRepository {
+
+	
+
+	
+}

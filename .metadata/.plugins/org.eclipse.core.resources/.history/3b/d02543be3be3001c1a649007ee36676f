@@ -1,0 +1,5 @@
+package workshop2.Entities.concretes;
+
+public class Product {
+
+}

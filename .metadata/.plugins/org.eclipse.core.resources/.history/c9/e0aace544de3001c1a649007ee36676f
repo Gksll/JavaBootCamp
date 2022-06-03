@@ -1,0 +1,5 @@
+package workshop2.dataAccess.abstracts;
+
+public interface CategoryRepository {
+
+}

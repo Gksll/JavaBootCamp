@@ -1,0 +1,7 @@
+package workshop2.Entities.concretes;
+
+public class Category {
+private int id;
+private String name;
+private String Description;
+}

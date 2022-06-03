@@ -1,0 +1,96 @@
+package workshop2.business.concretes;
+
+import java.util.List;
+
+import workshop2.Entities.concretes.Product;
+import workshop2.business.abstracts.ProductService;
+import workshop2.dataAccess.abstracts.ProductRepository;
+
+public class ProductManager implements ProductService {
+
+	private ProductRepository productRepository;
+	int count = 0;
+
+	public ProductManager(ProductRepository productRepository) {
+		this.productRepository = productRepository;
+	}
+
+	@Override
+	public void add(Product product) {
+		if (!checkIfProductExist(product.getName())) {
+			if (checkIfProductPriceMines(product)) {
+				if (checkCategoryCount(product)) {
+					productRepository.add(product);
+					System.out.println(count+" adet ");
+				}
+			}
+
+		} else {
+			System.out.println("Urun daha once eklenmis");
+		}
+
+	}
+
+	@Override
+	public void delete(Product product) {
+		productRepository.delete(getById(product.getId()));
+
+	}
+
+	@Override
+	public void update(Product product) {
+		productRepository.update(product);
+
+	}
+
+	@Override
+	public List<Product> getAll() {
+
+		return productRepository.getAll();
+	}
+
+	@Override
+	public Product getById(int id) {
+		Product product = productRepository.getById(id);
+		return product;
+	}
+
+	@Override
+	public boolean checkIfProductExist(String name) {
+		boolean exists = false;
+		for (Product item : productRepository.getAll()) {
+			if (item.getName() == name) {
+				exists = true;
+			}
+		}
+		return exists;
+	}
+
+	@Override
+	public boolean checkIfProductPriceMines(Product product) {
+		if (product.getUnitPrice() <= 0) {
+			System.out.println("Urun fiyati negatif olamaz");
+			return false;
+		} else {
+			return true;
+		}
+
+	}
+
+	@Override
+	public boolean checkCategoryCount(Product product) {
+		
+		for (Product item : productRepository.getAll()) {
+			if (item.getCategoryId() == id && item.getId()==product.getId()) {
+				count++;
+			}
+		}
+		if (count > 5) {
+			System.out.println("Category 5 oldu bile :)");
+			return false;
+		} else {
+			return true;
+		}
+	}
+
+}

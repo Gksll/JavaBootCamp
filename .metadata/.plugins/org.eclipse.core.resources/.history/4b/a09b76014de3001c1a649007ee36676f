@@ -1,0 +1,19 @@
+package workshop2.Entities.concretes;
+
+public class Category {
+
+	public Category() {
+		super();
+	}
+
+	public Category(int id, String name, String description) {
+		super();
+		this.id = id;
+		this.name = name;
+		Description = description;
+	}
+
+	private int id;
+	private String name;
+	private String Description;
+}

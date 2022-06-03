@@ -1,0 +1,39 @@
+package workshop2;
+import workshop2.Entities.concretes.Product;
+import workshop2.business.abstracts.ProductService;
+import workshop2.business.concretes.ProductManager;
+import workshop2.dataAccess.concretes.HibernateProductRepository;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		ProductService productService = new ProductManager(new HibernateProductRepository());
+		//ProductService productService2= new ProductManager(new jdbcBrandRepository());
+		
+		Product p1 = new Product();
+		p1.setId(1);
+		p1.setName("Gozluk");
+		p1.setDescription("On numara gözlük");
+		p1.setQuentityPerUnit("Adet");
+		p1.setUnitPrice(700);
+		productService.add(p1);
+		productService.add(p1);
+		
+		Product p2 = new Product();
+		p2.setId(2);
+		p2.setName("cikolata");
+		p2.setDescription("En tatlisi");
+		p2.setQuentityPerUnit("Adet");
+		p2.setUnitPrice(5);
+//		productService.add(p2);
+		
+		System.out.println(productService.getById(2));
+		
+//		for (Product item : productService.getAll()) {
+//			System.out.println(item.getId());
+//		}
+
+	}
+
+}
